@@ -1,0 +1,93 @@
+Simple Bill Calculator
+Name: SATHYA U
+Register Number: 411625243049
+Department: Artificial Intelligence & Data Science (AI & DS)
+Subject: Python
+Batch: 5
+Project Title
+
+Simple Bill Calculator using Operators and Input & Output
+
+Problem Statement
+
+To design and implement a simple bill calculator that calculates the total bill amount based on item price, quantity, tax, and discount using Python.
+
+Objectives
+
+To understand input and output operations in Python
+
+To use arithmetic operators in Python
+
+To calculate the total bill amount
+
+To simulate real-life billing logic
+
+To improve basic Python programming skills
+
+Tools Used
+
+Python 3
+
+VS Code / IDLE
+
+Project Description
+
+This program calculates the subtotal, tax amount, discount amount, and final bill amount based on user inputs such as item price, quantity, tax percentage, and discount percentage. It uses basic arithmetic operators and input/output statements in Python.
+
+Algorithm
+
+Read the item price
+
+Read the quantity
+
+Calculate the subtotal
+
+Read the tax percentage
+
+Calculate the tax amount
+
+Read the discount percentage
+
+Calculate the discount amount
+
+Calculate the final bill amount
+
+Display the bill details
+
+Program Code
+# Simple Bill Calculator
+
+price = float(input("Enter price of the item: "))
+quantity = int(input("Enter quantity: "))
+
+subtotal = price * quantity
+
+tax_percent = float(input("Enter tax percentage: "))
+tax_amount = (subtotal * tax_percent) / 100
+
+discount_percent = float(input("Enter discount percentage: "))
+discount_amount = (subtotal * discount_percent) / 100
+
+total_bill = subtotal + tax_amount - discount_amount
+
+print("\n----- BILL DETAILS -----")
+print("Subtotal : Rs.", subtotal)
+print("Tax Amount : Rs.", tax_amount)
+print("Discount Amount : Rs.", discount_amount)
+print("Total Bill : Rs.", total_bill)
+
+Sample Output
+Enter price of the item: 100
+Enter quantity: 2
+Enter tax percentage: 10
+Enter discount percentage: 5
+
+----- BILL DETAILS -----
+Subtotal : Rs. 200.0
+Tax Amount : Rs. 20.0
+Discount Amount : Rs. 10.0
+Total Bill : Rs. 210.0
+
+Conclusion
+
+This project demonstrates the use of basic arithmetic operators and input/output operations in Python to create a simple and practical billing system. It helps in understanding real-world billing calculations and strengthens fundamental Python programming concepts.
